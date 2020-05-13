@@ -10,7 +10,7 @@ The code will be uploaded soon.
 
 
 ## Supplementary materials
-In [supplementary_material](supplementary_material) you can find more detailed results. A complete list of the MATLAB .fig files used to generate these results is reported as well.
+In [supplementary_materials](supplementary_materials) you can find more detailed results. A complete list of the MATLAB .fig files used to generate these results is reported as well.
 
 
 ## Credits
