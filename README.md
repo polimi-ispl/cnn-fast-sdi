@@ -10,7 +10,7 @@ The code will be uploaded soon.
 
 
 ## Supplementary materials
-In [supplementary_materials](supplementary_materials) you can find more detailed results. A complete list of the MATLAB .fig files used to generate these results is reported as well.
+In [supplementary_materials](supplementary_materials) you can find more detailed results. Precisely, [supplementary_materials.pdf](supplementary_materials/supplementary_materials.pdf) reports the list of results for the open-set problem, i.e., tackling source identification in case of unknown cameras. MATLAB .fig files used to generate these results are reported as well.
 
 
 ## Credits
