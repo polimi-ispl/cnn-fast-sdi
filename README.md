@@ -16,7 +16,8 @@ In [supplementary_material](supplementary_material) you can find more detailed r
 ## Credits
 [ISPL: Image and Sound Processing Lab - Politecnico di Milano](http://ispl.deib.polimi.it/)
 - Sara Mandelli (sara.mandelli@polimi.it)
-- Paolo Bestagini (paolo.bestagini@polimi.it)
+- Paolo Bestagini (paolo.bestagini@polimi.it) 
+
 [GRIP: Image Processing Research Group - University Federico II of Naples](http://www.grip.unina.it/)
 - Davide Cozzolino (davide.cozzolino@unina.it)
 - Luisa Verdoliva (verdoliv@unina.it)
