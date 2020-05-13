@@ -1,5 +1,5 @@
 # CNN-based fast source device identification
-<img src="assets/cnn_training.png" width="48">
+<img src="assets/cnn_training.png" width="100">
 
 This is the official repository of **CNN-based fast source device identification**,
 submitted to [IEEE Signal Processing Letters](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=97) and currently available on [arXiv](https://arxiv.org/pdf/2001.11847.pdf).
