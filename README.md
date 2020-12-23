@@ -21,7 +21,7 @@ If you just want to visualize results of our pre-trained models and tested over 
 - You can find the complete list of results for every model [here](outputs/)
 
 ### Extract image noise residuals and device PRNU and save them 
-You can extract them either using the Python implementation available [here](https://github.com/polimi-ispl/prnu-python).  
+You can extract them using the Python implementation available [here](https://github.com/polimi-ispl/prnu-python).  
 For each device, create a train-validation-test split, dividing the image noise residuals in 50% training, 25% validation, 25% evaluation.  
 Create 3 lists for each device reporting the paths to the noise residuals: 
 - `/Noises_lists/train/list_%device_name.npy`
