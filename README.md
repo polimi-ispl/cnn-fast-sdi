@@ -2,7 +2,7 @@
 <img src="assets/cnn_training.png" width="500">
 
 This is the official repository of **CNN-based fast source device identification**,
-accepted to [IEEE SIGNAL PROCESSING LETTERS, VOL. 27, 2020](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=97) and currently available on [arXiv](https://arxiv.org/pdf/2001.11847.pdf).
+accepted to [IEEE SIGNAL PROCESSING LETTERS](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=97), VOL. 27, 2020 and currently available on [arXiv](https://arxiv.org/pdf/2001.11847.pdf).
 
 
 ## Code
@@ -11,9 +11,10 @@ accepted to [IEEE SIGNAL PROCESSING LETTERS, VOL. 27, 2020](https://ieeexplore.i
 
 - Install conda
 - Create the cnn_fast_sdi environment with environment.yml
-- $ conda env create -f environment.yml
-- $ conda activate cnn_fast_sdi
-
+```bash
+$ conda env create -f environment.yml
+$ conda activate cnn_fast_sdi
+```
 ### Quick results
 If you just want to visualize results of our pre-trained models and tested over all the 87 devices in the dataset:
 [notebook showing the results](show_results.ipymb) .
@@ -30,7 +31,9 @@ Run "train_cnn.py" to train a CNN for image-PRNU matching.
 Please refer to the comments in the script for hints on the usage.
 For instance, to train the PCN architecture on image-patches of 224 x 224 pixels, you can run:
 
-python3 train_cnn.py --model_dir ./models/Pcn_crop224 --crop_size 224 --base_network Pcn
+```bash
+$ python3 train_cnn.py --model_dir ./models/Pcn_crop224 --crop_size 224 --base_network Pcn
+```
 
 ### Test
 
@@ -38,8 +41,9 @@ Run "test_cnn.py" to test a CNN for image-PRNU matching.
 Please refer to the comments in the script for hints on the usage.
 For instance, to test the PCN architecture on image-patches of 224 x 224 pixels, you can run:
 
-python3 test_cnn.py --model_dir ./models/Pcn_crop224 --output_file ./outputs/Pcn_crop224_test.npz--crop_size 224 --base_network Pcn
-
+```bash
+$ python3 test_cnn.py --model_dir ./models/Pcn_crop224 --output_file ./outputs/Pcn_crop224_test.npz--crop_size 224 --base_network Pcn
+```
 ## Supplementary materials
 In [supplementary_materials](supplementary_materials) you can find more detailed results. Precisely, [supplementary_materials.pdf](supplementary_materials/supplementary_materials.pdf) reports the list of results for the closed-set problem, i.e., identifying the image source among a finite pool of devices, and for the open-set problem, i.e., tackling source identification in case of unknown cameras. MATLAB .fig files used to generate these results are reported as well.
 
