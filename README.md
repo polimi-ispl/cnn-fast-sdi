@@ -17,17 +17,20 @@ $ conda activate cnn_fast_sdi
 ```
 ### Quick results
 If you just want to visualize results of our pre-trained models and tested over all the 87 devices in the dataset:
-- [notebook showing the results](show_results.ipymb) .
-- You can find the complete list of results for every model [here](outputs/).
+- [notebook showing the results](show_results.ipynb)
+- You can find the complete list of results for every model [here](outputs/)
 
 ### Extract image noise residuals and device PRNU and save them 
-You can extract them either using the Python implementation available [here](https://github.com/polimi-ispl/prnu-python).\\
-for each device, create a train-validation-test split, dividing the image noise residuals in 50% training, 25% validation, 25% evaluation.
-Create 3 lists for each device: "/Noises_lists/train/list_%device_name.npy", "/Noises_lists/valid/list_%device_name.npy", "/Noises_lists/test/list_%device_name.npy" reporting the paths to the noise residuals.
+You can extract them either using the Python implementation available [here](https://github.com/polimi-ispl/prnu-python).  
+For each device, create a train-validation-test split, dividing the image noise residuals in 50% training, 25% validation, 25% evaluation.  
+Create 3 lists for each device reporting the paths to the noise residuals: 
+- "/Noises_lists/train/list_%device_name.npy"
+- "/Noises_lists/valid/list_%device_name.npy"
+- "/Noises_lists/test/list_%device_name.npy" 
 
 ### Train
 
-Run "train_cnn.py" to train a CNN for image-PRNU matching. 
+Run `train_cnn.py` to train a CNN for image-PRNU matching. 
 Please refer to the comments in the script for hints on the usage.
 For instance, to train the PCN architecture on image-patches of 224 x 224 pixels, you can run:
 
@@ -37,7 +40,7 @@ $ python3 train_cnn.py --model_dir ./models/Pcn_crop224 --crop_size 224 --base_n
 
 ### Test
 
-Run "test_cnn.py" to test a CNN for image-PRNU matching. 
+Run `test_cnn.py` to test a CNN for image-PRNU matching. 
 Please refer to the comments in the script for hints on the usage.
 For instance, to test the PCN architecture on image-patches of 224 x 224 pixels, you can run:
 
