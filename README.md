@@ -30,7 +30,7 @@ Create 3 lists for each device reporting the paths to the noise residuals:
 
 ### Train
 
-Run `train_cnn.py` to train a CNN for image-PRNU matching. 
+Run `[train_cnn.py](train_cnn.py)` to train a CNN for image-PRNU matching. 
 Please refer to the comments in the script for hints on the usage.
 For instance, to train the PCN architecture on image-patches of 224 x 224 pixels, you can run:
 
@@ -40,7 +40,7 @@ $ python3 train_cnn.py --model_dir ./models/Pcn_crop224 --crop_size 224 --base_n
 
 ### Test
 
-Run `test_cnn.py` to test a CNN for image-PRNU matching. 
+Run `[test_cnn.py](test_cnn.py)` to test a CNN for image-PRNU matching. 
 Please refer to the comments in the script for hints on the usage.
 For instance, to test the PCN architecture on image-patches of 224 x 224 pixels, you can run:
 
