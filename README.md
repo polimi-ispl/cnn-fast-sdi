@@ -10,7 +10,7 @@ accepted to [IEEE SIGNAL PROCESSING LETTERS](https://ieeexplore.ieee.org/xpl/Rec
 ### Prerequisites
 
 - Install conda
-- Create the `cnn_fast_sdi` environment with environment.yml
+- Create the `cnn_fast_sdi` environment with `environment.yml`
 ```bash
 $ conda env create -f environment.yml
 $ conda activate cnn_fast_sdi
@@ -24,9 +24,9 @@ If you just want to visualize results of our pre-trained models and tested over 
 You can extract them either using the Python implementation available [here](https://github.com/polimi-ispl/prnu-python).  
 For each device, create a train-validation-test split, dividing the image noise residuals in 50% training, 25% validation, 25% evaluation.  
 Create 3 lists for each device reporting the paths to the noise residuals: 
-- "/Noises_lists/train/list_%device_name.npy"
-- "/Noises_lists/valid/list_%device_name.npy"
-- "/Noises_lists/test/list_%device_name.npy" 
+- `/Noises_lists/train/list_%device_name.npy`
+- `/Noises_lists/valid/list_%device_name.npy`
+- `/Noises_lists/test/list_%device_name.npy`
 
 ### Train
 
