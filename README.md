@@ -47,6 +47,16 @@ For instance, to test the PCN architecture on image-patches of 224 x 224 pixels,
 ```bash
 $ python3 test_cnn.py --model_dir ./models/Pcn_crop224 --output_file ./outputs/Pcn_crop224_test.npz--crop_size 224 --base_network Pcn
 ```
+
+#### Test pretrained models
+
+Pretrained models can be downloaded [here](https://www.dropbox.com/sh/n5hzpkhmoyvk1bb/AACudyhtBfbbgl9gXmIpki2ca?dl=0).
+For instance, to load the PCN model pretrained on image-patches randomly cropped to 224 x 224 pixels and then test it on image-patches of 224 x 224 pixels, you can run:
+
+```bash
+$ python3 test_cnn.py --model_dir ./downloaded_pretrained_models/cropr224_Pcn --output_file ./outputs/cropr224_Pcn_test.npz--crop_size 224 --base_network Pcn
+```
+
 ## Supplementary materials
 In [supplementary_materials](supplementary_materials) you can find more detailed results. Precisely, [supplementary_materials.pdf](supplementary_materials/supplementary_materials.pdf) reports the list of results for the closed-set problem, i.e., identifying the image source among a finite pool of devices, and for the open-set problem, i.e., tackling source identification in case of unknown cameras. MATLAB .fig files used to generate these results are reported as well.
 
