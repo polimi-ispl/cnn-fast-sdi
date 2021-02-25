@@ -48,9 +48,9 @@ For instance, to test the PCN architecture on image-patches of 224 x 224 pixels,
 $ python3 test_cnn.py --model_dir ./models/Pcn_crop224 --output_file ./outputs/Pcn_crop224_test.npz--crop_size 224 --base_network Pcn
 ```
 
-#### Test pretrained models
+#### Test pretrained CNN models
 
-Pretrained models can be downloaded [here](https://www.dropbox.com/sh/n5hzpkhmoyvk1bb/AACudyhtBfbbgl9gXmIpki2ca?dl=0).
+Pretrained CNN models can be downloaded [here](https://www.dropbox.com/sh/n5hzpkhmoyvk1bb/AACudyhtBfbbgl9gXmIpki2ca?dl=0).
 For instance, to load the PCN model pretrained on image-patches randomly cropped to 224 x 224 pixels and then test it on image-patches of 224 x 224 pixels, you can run:
 
 ```bash
